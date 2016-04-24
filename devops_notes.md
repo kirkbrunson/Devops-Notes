@@ -35,7 +35,7 @@ Read the post [*What Devops Means to Me*][1] for more in depth discussion on CAM
 
 ## TL;DR:
 
-Software development is seldom done in a vacuum. Indeed, great software development involves the entire team from product management to operations. All your lean planning and iterative development won't mean a thing if you can't ship quickly. DevOps lives in this space.
+Great software development involves the entire team from product management to operations. All your lean planning and iterative development won't mean a thing if you can't ship quickly. DevOps lives in this space.
 ![Devops Venn Diagram](/img/devops_venn.png)
 
 
@@ -52,24 +52,36 @@ Software development is seldom done in a vacuum. Indeed, great software developm
 
 
 
-# Environment:
+# The DevOps Environment:
 
-## Concepts:
+## Problem statement:
 
-### 
-
-###
+Differences between development and production environments can be a source of tension between teams. We will use Packer to build deployment images for both dev and production environments.
 
 
+## Solutions:
 
-## Tools:
+**Golden image:** Master image of machine contains all dependencies and can be reused without configuration.
 
-### Vagrant:
+- Fast boot & install
+- Large upfront cost
+- Immutable image
+![Golden Image](/img/golden_image.png)
 
-### Packer:
 
-### 
+**Configuration Management:** Manages dependency installation on machines that have a common OS image. 
 
+- Lighter build process
+- Easy to update
+- Slower startup
+![Config Management](/img/config_manage.png)
+
+
+Can also use a hybrid of the two approaches.
+
+
+## Setup and tools:
+See [project setup](setup.md).
 
 
 
