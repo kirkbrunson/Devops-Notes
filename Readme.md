@@ -212,7 +212,7 @@ Here's a few common tools:
 
 ---
 
-Congrats! You've reached the end Intro to DevOps. Be sure to continue learning by checking out the resources in the [course wiki][17].
+Congrats! You've reached the end of Intro to DevOps. Be sure to continue learning by checking out the resources in the [course wiki][17].
 
 
 
