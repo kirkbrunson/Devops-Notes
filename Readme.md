@@ -193,18 +193,19 @@ Good monitoring is a critical feedback loop for the organization, and should be 
 
 ### Monitoring Tools:
 
-Picking which to use depends on your needs. For small projects, something small and easy to set up is better than a comprehensive suite meant to manage hundreds or thousands of nodes and services. One the other hand, if you have a huge system, you should pick a system that is meant to be very scalable.
+Picking which to use depends on your needs. For small projects, something small and easy to set up is better than a comprehensive suite meant to manage hundreds or thousands of nodes and services. One the other hand, if you have a huge system, you should pick a system that is meant to be very scalable. 
 
-[Nagios][24] and [Zabbix][25] - comprehensive solutions for monitoring large infrastructure, but maybe too big and complex for small projects.
-[Graphite][26] - Opensource database and a graphing solution for storing and displaying monitoring data.
-[InfluxDB][27] - an open-source distributed time series database for metrics, events, and analytics.
-[StatsD][28] - Simple daemon for easy stats aggregation, by Etsy. Read about the philosophy behind it in the article by it's creators - [Measure Anything, Measure Everything][29]
-[Grafana][30] - metrics dashboard and graph editor for Graphite and InfluxDB
-[PagerDuty][31] - incident resolution lifecycle management platform that integrates with over 100 other systems to streamline the process for large organisations.
-[Logstash][32] - log storage and search system, works well with - [Kibana][33] graphing and visualization software.
+Here's a few common tools:
 
-And there are many more!
-monitoring overview.png
+- [Nagios][24] and [Zabbix][25] - comprehensive solutions for monitoring large infrastructure, but maybe too big and complex for small projects.
+- [Graphite][26]: Opensource database and a graphing solution for storing and displaying monitoring data.
+- [InfluxDB][27]: an open-source distributed time series database for metrics, events, and analytics.
+- [StatsD][28]: Simple daemon for easy stats aggregation, by Etsy. Read about the philosophy behind it in the article by it's creators - [Measure Anything, Measure Everything][29]
+- [Grafana][30]: metrics dashboard and graph editor for Graphite and InfluxDB
+- [PagerDuty][31]: incident resolution lifecycle management platform that integrates with over 100 other systems to streamline the process for large organisations.
+- [Logstash][32]: log storage and search system, works well with - [Kibana][33] graphing and visualization software.
+
+
 ![Monitoring Overview](/img/monitoring_overview.png)
 
 
