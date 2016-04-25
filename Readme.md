@@ -204,8 +204,8 @@ Picking which to use depends on your needs. For small projects, something small 
 [Logstash][32] - log storage and search system, works well with - [Kibana][33] graphing and visualization software.
 
 And there are many more!
-
-![Monitoring Overview](/img/monitoring_overiew.png)
+monitoring overview.png
+![Monitoring Overview](/img/monitoring_overview.png)
 
 
 
