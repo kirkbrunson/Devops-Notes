@@ -1,4 +1,4 @@
-Notes on Udacity's [Intro to DevOps](https://www.udacity.com/course/intro-to-devops--ud611) course.
+Notes on Udacity's [Intro to DevOps](https://www.udacity.com/course/intro-to-devops--ud611) course. See the [course wiki](https://www.udacity.com/wiki/ud611) for more.
 
 
 # Purpose of DevOps:
@@ -81,7 +81,30 @@ Can also use a hybrid of the two approaches.
 
 
 ## Setup and tools:
-See [project setup](setup.md).
+See [project setup](setup.md) and install the software as desribed.
+
+
+---
+
+
+# Tools
+
+## Packer:
+
+Per Packer's Getting Started: 
+> Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration.
+
+Next up, read the [Intro to Packer][7], [Packer Terminology][8], and the [template overview][9].
+
+![Packer Overview](/img/packer_overview.png)
+
+Now you should have a good understanding of what Packer is and what you can use it to accomplish. Read the following docs to continue:
+- [Builders][10]
+- [Provisioners][11]
+- [Post-Processors][12]
+
+
+At this point, you should make sure you've cloned the course repo as explained in setup, and now follow the steps in that repo's readme to build your first packer box. 
 
 
 
@@ -101,3 +124,15 @@ See [project setup](setup.md).
 [5]: https://www.youtube.com/watch?v=o7-IuYS0iSE
 [6]: http://brainfreez3.blogspot.com/2015/12/devops.html
 
+
+[7]: https://www.packer.io/intro/index.html
+[8]: https://www.packer.io/docs/basics/terminology.html
+[9]: https://www.packer.io/docs/templates/introduction.html
+[10]: https://www.packer.io/docs/templates/builders.html
+[11]: https://www.packer.io/docs/templates/provisioners.html
+[12]: https://www.packer.io/docs/templates/post-processors.html
+
+
+
+
+[13]:
